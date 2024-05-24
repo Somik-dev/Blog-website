@@ -1,0 +1,5 @@
+@include('frontend.includes.header')
+    @yield('content')
+@include('frontend.includes.instragram')
+@include('frontend.includes.footer')
+@yield('footer_script')
